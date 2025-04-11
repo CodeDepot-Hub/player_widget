@@ -23,9 +23,8 @@ dependencies:
     sdk: flutter
 
   # The following adds the flutter aliplayer package
-  flutter_aliplayer: ^7.0.0
-#  flutter_aliplayer:
-#    path: ../../flutter_sdk/flutter_aliplayer
+  flutter_aliplayer:
+
 
 dev_dependencies:
   flutter_test:
