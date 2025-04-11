@@ -25,7 +25,7 @@ dependencies:
   # The following adds the flutter aliplayer package
   flutter_aliplayer:
     git:
-      url: git@github.com:nicolastinkl/NVPlayer.git
+      url: git@github.com:CodeDepot-Hub/flutter_aliplayer.git
       ref: main
 #  flutter_aliplayer:
 #    path: ../../flutter_sdk/flutter_aliplayer
