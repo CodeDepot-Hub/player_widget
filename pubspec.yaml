@@ -26,7 +26,7 @@ dependencies:
   flutter_aliplayer:
     git:
       url: git@github.com:nicolastinkl/NVPlayer.git
-      ref: master
+      ref: main
 #  flutter_aliplayer:
 #    path: ../../flutter_sdk/flutter_aliplayer
 
