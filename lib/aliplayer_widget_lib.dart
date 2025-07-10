@@ -21,6 +21,7 @@ export 'package:flutter_aliplayer/flutter_aliplayer_global_setting.dart';
 export 'package:flutter_aliplayer/flutter_aliplayer_factory.dart';
 
 // 导入必要的依赖
+import 'dart:async';
 import 'dart:ui';
 
 import 'package:aliplayer_widget/constants/setting_constants.dart';
@@ -54,6 +55,12 @@ import 'utils/full_screen_util.dart';
 
 // 引入 AliPlayer Widget 的实现
 part 'aliplayer_widget.dart';
+
+// 引入 AliPlayer Widget 优化版本的实现
+part 'aliplayer_widget_optimized.dart';
+
+// 引入 AliPlayer Widget 纯净版本的实现
+part 'aliplayer_widget_pure.dart';
 
 part 'ui/aliplayer_full_screen_widget.dart';
 
