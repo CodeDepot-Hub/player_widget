@@ -548,6 +548,11 @@ class AliPlayerWidgetController {
     _aliPlayer.play();
   }
 
+  void setEnableHardwareDecoder({required bool isHardWare}) {
+    _playerLog("[api][setEnableHardwareDecoder]");
+    _aliPlayer.setEnableHardwareDecoder(isHardWare);
+  }
+
   /// 暂停播放
   ///
   /// Pause the player's playback.
