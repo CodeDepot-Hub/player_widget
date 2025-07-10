@@ -25,7 +25,10 @@ dependencies:
   # The following adds the flutter aliplayer package
 #  flutter_aliplayer: ^7.3.0
   flutter_aliplayer:
+  git:
     url: git@github.com:CodeDepot-Hub/flutter_aliplayer.git
+    ref: main
+
 
   # Allows to keep the device screen awake, i.e. prevent the screen from sleeping.
   wakelock_plus: ^1.3.0
