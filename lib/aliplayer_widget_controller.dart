@@ -778,6 +778,32 @@ class AliPlayerWidgetController {
     videoSizeNotifier.value = newSize;
   }
 
+  /// 设置播放速度
+  ///
+  /// Set the playback speed of the player.
+  ///
+  /// [speed] The target playback speed.
+  Future<void> setConfig({required Map map}) async {
+    await _aliPlayer.setConfig(map);
+  }
+
+  Future<void> config({required AVPConfig config}) async {
+    return _aliPlayer.setPlayConfig(config);
+  }
+
+  Future<void> enableDowngrade(
+      {required String source, required AVPConfig config}) async {
+    return _aliPlayer.enableDowngrade(source, config);
+  }
+
+  Future<dynamic> getPlayedDuration() async {
+    return _aliPlayer.getPlayedDuration();
+  }
+
+  Future<int> getDuration() async {
+    return _aliPlayer.getDuration();
+  }
+
   /// 获取播放清晰度信息
   ///
   /// Retrieve and update the track information when the player is prepared.
