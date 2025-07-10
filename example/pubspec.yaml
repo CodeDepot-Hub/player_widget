@@ -38,9 +38,11 @@ dependencies:
     path: ../
 
   # The following adds the flutter aliplayer package
-  flutter_aliplayer: ^7.2.0
-  #  flutter_aliplayer:
-  #    path: ../../flutter_sdk/flutter_aliplayer
+#  flutter_aliplayer: ^7.2.0
+  flutter_aliplayer:
+      git:
+          url: git@github.com:CodeDepot-Hub/flutter_aliplayer.git
+          ref: main
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
